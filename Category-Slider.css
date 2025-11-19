@@ -1,0 +1,16 @@
+@media(max-width:768px){
+.s-block--banners .grid {
+    display:flex;
+    flex-wrap:nowrap;
+    width:100%;
+    overflow: auto;
+}
+.s-block--banners .grid  a {
+    min-width: 200px !important;
+    display:block !important;
+}
+
+.lazy__bg{
+    background-size:100% 100% !Important;
+}
+}
