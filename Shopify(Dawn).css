@@ -1,0 +1,43 @@
+/* Custom */
+
+@font-face {
+  font-family: 'Careem';
+  src: url('https://amr099.github.io/Fonts/CAREEM.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[lang="ar"]{
+  direction:rtl !important;
+}
+
+[lang="ar"] {
+  --blog-card-text-alignment:right !important;
+  --collection-card-text-alignment:right !important;
+  --product-card-text-alignment:right !important;
+}
+
+body *{
+  font-family: 'Careem', sans-serif !important;
+}
+
+[lang="ar"] .footer-block__details-content>li:not(:last-child){
+  margin-right:0 !important
+}
+
+div#Banner-template--20869862686935__image_banner_9L3F4Q {
+    margin-top: 5rem;
+}
+
+.title-wrapper-with-link {
+    justify-content: center;
+}
+
+.collection-list-wrapper  .full-unstyled-link {
+    text-align: center;
+    font-size: 24px;
+}
+
+.collection-list-wrapper  .icon-wrap {
+  opacity:0
+}
