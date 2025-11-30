@@ -41,3 +41,8 @@ div#Banner-template--20869862686935__image_banner_9L3F4Q {
 .collection-list-wrapper  .icon-wrap {
   opacity:0
 }
+@media screen and (min-width: 990px){
+.product--large:not(.product--no-media) .product__info-wrapper{
+    padding: 0 4rem 0 0 !important;
+}
+}
