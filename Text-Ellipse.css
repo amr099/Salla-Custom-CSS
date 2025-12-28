@@ -1,9 +1,8 @@
 .woocommerce-loop-product__title {
-  display: block;
-  max-width: 100% !important;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  	  display: -webkit-box !important;
+      -webkit-line-clamp: 1 !important;
+      -webkit-box-orient: vertical !important;
+      overflow: hidden !important;
 }
 
 .premium-woo-atc-button .kadence-svg-iconset{
