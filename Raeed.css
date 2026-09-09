@@ -146,6 +146,15 @@ a.navbar-brand {
     }
 }
 
+@media (min-width: 768px) {
+    .square-photos-grid--featured-3, .square-photos-grid--featured-5 {
+        grid-auto-rows: unset;
+    }
+   .square-photos-grid--featured-3>.banner-entry:first-child, .square-photos-grid--featured-5>.banner-entry:first-child {
+        grid-row: unset;
+    }
+}
+
 /* Transparent Banner */
 .banner-entry,
 .banner--fixed img {
