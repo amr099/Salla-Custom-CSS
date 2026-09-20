@@ -98,7 +98,9 @@ custom-main-menu {
 }
 
 /* -------------------- Categories ---------------------*/
-
+.s-block__title {
+    justify-content: center;
+}
 .s-block--banners .grid {
   max-width: 660px;
   margin: auto;
