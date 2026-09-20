@@ -22,6 +22,24 @@ body {
 }
 
 /* ----------------- Header ---------------------*/
+
+/* Flaoting Header
+@media(min-width:992px){
+  .index #mainnav:not(#mainnav.fixed-pinned) {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    background: rgba(0,0,0,0.1)!important;
+    backdrop-filter: blur(5px) !important;
+}
+  a.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+}
+*/
+
 .navbar-brand img {
   max-height: 6rem;
 }
@@ -350,7 +368,7 @@ footer a.flex.items-center.m-0 h3 {
   opacity: 0;
 }
 
-/* ---------------- Loading Screen ------------------------*/
+/* ---------------- Loading Screen ------------------------
 .index::before {
   content: "";
   position: fixed;
@@ -374,3 +392,4 @@ footer a.flex.items-center.m-0 h3 {
     visibility: hidden;
   }
 }
+*/
