@@ -1,6 +1,6 @@
 /* ----------------- Public ---------------------*/
 :root {
-  --logo: url(https://i.ibb.co/n8gS484s/0831e970-baf6-4a86-ab8c-65f52d7c-removebg-preview.png);
+  --logo: url();
   --bg: #ece3da;
   --bg-img: url();
   --header-bg: #ece3da;
@@ -225,7 +225,7 @@ body:not(body.product-single)
   background: var(--footer-bg) !important;
 }
 footer a.flex.items-center.m-0 h3:after {
-  content: url(https://i.ibb.co/VYHqnPdF/0831e970-baf6-4a86-ab8c-65f52d7c-removebg-preview-1.png);
+  content: var(--logo);
 }
 footer * {
   color: #705447 !important;
