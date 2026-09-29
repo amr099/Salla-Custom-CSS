@@ -93,9 +93,6 @@ custom-main-menu {
   margin-right: 0 !important;
   width: 100% !important;
 }
-.s-block--features__item:first-child {
-  grid-column: 1;
-}
 
 /* -------------------- Categories ---------------------*/
 .s-block__title {
@@ -105,6 +102,11 @@ custom-main-menu {
   max-width: 660px;
   margin: auto;
   grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
+}
+
+.lazy__bg.lazy.entered.loaded {
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .s-block--banners .banner-entry {
