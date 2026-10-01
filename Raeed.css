@@ -67,7 +67,7 @@ custom-main-menu {
 #mainnav i:before,
 #mainnav b,
 #mainnav a {
-  color: var(--header-bg) !important;
+  color: var(--header-color) !important;
 }
 #mainnav a:hover {
   opacity: 0.7;
